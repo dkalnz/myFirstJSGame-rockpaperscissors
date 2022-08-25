@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+			rel="stylesheet"
+		/>
+		<script defer src="script.js"></script>
+		<html>
+			<header>
+				<h1>Welcome to the ancient game of</h1>
+				<h1 class="big">Lapis, Papyrus, Scalpellus!</h1>
+				<h2>Choose your weapon:</h2>
+			</header>
+			<body>
+				<button class="choice" id="0" onClick="playerPlays(this.id)">
+					<img src="/assets/rock.png" />
+				</button>
+				<button class="choice" id="1" onClick="playerPlays(this.id)">
+					<img src="/assets/paper.png" />
+				</button>
+				<button class="choice" id="2" onClick="playerPlays(this.id)">
+					<img src="/assets/scissors.png" />
+				</button>
+				<h4 class="gameAnnounce"></h4>
+				<div class="gameResults"></div>
+			</body>
+		</html>
+	</head>
+</html>

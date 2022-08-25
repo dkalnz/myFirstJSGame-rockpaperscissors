@@ -1,0 +1,26 @@
+header {
+	line-height: 110%;
+}
+
+button {
+	background: none;
+	border: none;
+	margin: 5px;
+}
+img {
+	width: 100px;
+}
+h1 {
+	font-family: 'Staatliches', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+.big {
+	font-size: 70px;
+	margin: 0 0 5 0;
+	padding: 0;
+}
+body {
+	font-family: 'helvetica', sans serif;
+	text-align: center;
+}
